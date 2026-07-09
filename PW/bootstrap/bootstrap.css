@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+nav a {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -101,4 +109,21 @@ h2 {
     cursor: pointer;
 }
 
+footer.bg-light.text-center.py-3 {
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main.content {
+    flex: 1;
+}
