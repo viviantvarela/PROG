@@ -1,5 +1,4 @@
 function diasDesdeInicioDoAno() {
-  const dataDeHoje = new Date();
   const inicioDoAno = new Date(dataDeHoje.getFullYear(), 0, 1);
 
   return Math.floor(
@@ -7,6 +6,9 @@ function diasDesdeInicioDoAno() {
   );
 }
 
+const dataDeHoje = new Date();
+const dataFormatada = dataDeHoje.toLocaleDateString('pt-BR');
+
 console.log(
-  `A data de hoje é ${new Date()} e se passaram ${diasDesdeInicioDoAno()} dias desde o início do ano!`
+  `A data de hoje é ${dataFormatada} e se passaram ${diasDesdeInicioDoAno()} dias desde o início do ano!`
 );
