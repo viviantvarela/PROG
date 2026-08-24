@@ -1,7 +1,5 @@
 const mediaParcial = 48;
-const mediaIFRN = 60;
-
-const notaAVfinal = (mediaIFRN * 2) - mediaParcial;
+const notaAVfinal = 120 - mediaParcial;
 
 if (notaAVfinal > 100) {
   console.log(`Com a média parcial de ${mediaParcial}, você precisaria de ${notaAVfinal} na avaliação final. Como a nota máxima é 100, não é possível atingir a média.`);
