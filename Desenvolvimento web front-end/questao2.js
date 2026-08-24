@@ -1,11 +1,9 @@
-const mediaParcial = 45;
-const notaNecessaria = 120 - mediaParcial;
+const mediaParcial: number = 48;
+const mediaIFRN: number = 60;
 
-if (notaNecessaria > 100 ){
-    console.log(`Minha média parcial é ${mediaParcial},será necessario ${notaNecessaria}`+
-        `pontos na avaliação final - como a nota máxima é 100, não é possivel aprovar.`);
-}
-else {
-    console.log (`Com a media parcial ${mediaParcial},o estudante precisa tirar` +
-        `${notaNecessaria} na avaliação final para ser aprovado.`);
-}
+
+const notaAVfinal: number = (mediaIFRN * 2) - mediaParcial
+const mediaFinal: number = (mediaParcial + notaAVfinal) / 2;
+
+
+console.log(`A nota que você precisa na avaliação final é ${notaAVfinal}, com isso sua média final será ${mediaFinal}!`)
