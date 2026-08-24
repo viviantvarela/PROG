@@ -7,5 +7,5 @@ if (notaAVfinal > 100) {
 else {
   const mediaFinal = (mediaParcial + notaAVfinal) / 2;
   
-  console.log(`A nota que você precisa na avaliação final é ${notaAVfinal}, com isso sua média final será ${mediaFinal}!);
+  console.log(`A nota que você precisa na avaliação final é ${notaAVfinal}, com isso sua média final será ${mediaFinal}!`);
 }  
