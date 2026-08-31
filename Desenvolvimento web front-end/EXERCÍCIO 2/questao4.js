@@ -5,9 +5,11 @@ let sexo = prompt(`Digite 'm' para masculino ou 'f' para feminino: `).toLowerCas
 let pesoIdeal;
 
 if (sexo == 'm'){
-  pesoIdeal = (altura - 100) - ((altura - 150) / 4);
+    pesoIdeal = (altura - 100) - ((altura - 150) / 4);
+    sexo = `masculino`;
 } else {
-  pesoIdeal = (altura - 100) - ((altura - 150) / 2);
+    pesoIdeal = (altura - 100) - ((altura - 150) / 2);
+    sexo = `feminino`;
 }
    
 console.log(`A sua altura em centímetros é ${altura}cm, seu sexo é ${sexo}, e o seu peso ideal é ${pesoIdeal.toFixed(2)}kg.`)
