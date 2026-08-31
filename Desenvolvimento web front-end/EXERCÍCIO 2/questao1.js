@@ -10,6 +10,6 @@ console.log(`e o da "c" é: a + b = ${c}!`)
 // Questão 1 (B)
 
 let raio = 5;
-let volumeEsfera = (4 * Math.PI * Math.pow(raio, 3)) / 3;
+const volumeEsfera = (4 * Math.PI * Math.pow(raio, 3)) / 3;
 
 console.log(`O volume da esfera de raio ${raio} é: ${volumeEsfera.toFixed(2)}`)
