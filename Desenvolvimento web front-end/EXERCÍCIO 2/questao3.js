@@ -8,7 +8,7 @@ console.log(`A média parcial do aluno é ${mediaParcial.toFixed(2)}`)
 
 if (mediaParcial >= 60.00) {
     console.log(`Aprovado!`);
-} else if ( mediaParcial >= 10) {
+} else if (mediaParcial >= 10) {
     console.log(`Prova final!`);
 } else {
     console.log(`Reprovado`)
